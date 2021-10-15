@@ -1,0 +1,16 @@
+MAILDIR="/home/user/schedule/"
+DEFAULT="/home/user/schedule/"
+LOGFILE="/home/user/procmail.log"
+uudeview -a -p /home/user/schedule/in
+VERBOSE=on
+
+:0
+*^content-Type:
+{
+
+:0c:
+/home/user/schedule/backup
+
+:0fw
+uudeview +e msg.BGhD -i newsfile -p /home/user/schedule/attachments
+}
