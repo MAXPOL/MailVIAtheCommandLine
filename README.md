@@ -2,12 +2,9 @@
 
 cd /home/user
 
-apt install fetchmail
-apt install procmail
-apt install uudeview
+apt install fetchmail procmail uudeview
 
-mkdir schedule
-mkdir schedule/backup
+mkdir schedule && mkdir schedule/backup
 
 fetchmail
 
