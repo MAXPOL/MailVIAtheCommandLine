@@ -1,4 +1,4 @@
-# Mail VIA the Command Line
+# Mail VIA the Command Line For BPPK
 
 cd /home/user
 
