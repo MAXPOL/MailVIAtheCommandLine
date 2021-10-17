@@ -9,8 +9,8 @@ VERBOSE=on
 {
 
 :0c:
-/home/user/schedule/backup
+/schedule
 
 :0fw
-uudeview +e msg.BGhD -i newsfile -p /home/user/schedule/attachments
+uudeview +e * -i newsfile -p /schedule
 }
